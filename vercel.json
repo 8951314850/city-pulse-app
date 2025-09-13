@@ -2,6 +2,10 @@
   "build": {
     "env": {
       "REACT_APP_TICKETMASTER_KEY": "CUaJbWwttOO1uLJdfeYVBJQZSiGXIKMd"
+    },
+    "builder": "npm",
+    "commands": {
+      "build": "npm run vercel-build"
     }
   }
 }
