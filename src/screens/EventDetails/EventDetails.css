@@ -1,0 +1,79 @@
+/* src/pages/EventDetails.css */
+.event-details {
+  max-width: 800px;
+  margin: 20px auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+}
+
+.event-banner img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+
+.event-content {
+  padding: 20px;
+}
+
+.event-content h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.event-date {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.event-venue {
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 12px;
+}
+
+.event-info {
+  margin: 15px 0;
+  line-height: 1.5;
+  color: #333;
+}
+
+.event-btn {
+  display: inline-block;
+  padding: 12px 20px;
+  background: #007bff;
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+
+.event-btn:hover {
+  background: #0056b3;
+}
+
+/* src/pages/EventDetails.css */
+.event-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.fav-btn {
+  padding: 10px 16px;
+  background: #ffcc00;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.fav-btn:hover {
+  background: #e6b800;
+}

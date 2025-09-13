@@ -11,3 +11,6 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Leaflet CSS */
+@import url('https://unpkg.com/leaflet/dist/leaflet.css');
