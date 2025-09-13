@@ -1,6 +1,7 @@
 {
-  "buildCommand": "npm install --legacy-peer-deps && npm run build",
-  "env": {
-    "REACT_APP_TICKETMASTER_KEY": "CUaJbWwttOO1uLJdfeYVBJQZSiGXIKMd"
+  "build": {
+    "env": {
+      "REACT_APP_TICKETMASTER_KEY": "CUaJbWwttOO1uLJdfeYVBJQZSiGXIKMd"
+    }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "city-pulse",
+  "name": "city-pulse-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,37 +10,27 @@
     "axios": "^1.12.1",
     "i18next": "^24.2.3",
     "leaflet": "^1.9.4",
-    "react": "^19.1.1",
-    "react-dom": "^19.1.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-i18next": "^14.1.3",
     "react-leaflet": "^5.0.0",
     "react-router-dom": "^7.9.1",
     "react-scripts": "5.0.1",
+    "typescript": "4.9.5",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "vercel-build": "npm install --legacy-peer-deps && npm run build",
+    "vercel-build": "npm install --legacy-peer-deps && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "extends": ["react-app", "react-app/jest"]
   },
   "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+    "production": [">0.2%", "not dead", "not op_mini all"],
+    "development": ["last 1 chrome version", "last 1 firefox version", "last 1 safari version"]
   }
 }
